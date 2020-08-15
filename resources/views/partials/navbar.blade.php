@@ -1,25 +1,52 @@
 <div class="container p-0">
 	<nav class="navbar navbar-expand-lg navbar-light">
-		<nav class="navbar navbar-light bg-light p-0">
+		<nav class="navbar navbar-light">
   			<a class="navbar-brand bg-transparent" href="#">
-    			<img src="{{url('/logoHLT')}}" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-    			Homelabteam.com
+    			<img src="{{url('/logoHLT.png')}}" height="50px" width="200px" class="d-inline-block align-top bg-transparent border border-warning p-0" alt="" loading="lazy">
   			</a>
 		</nav>
 	  <button type="button" class="navbar-toggler ml-auto"  data-toggle="collapse" data-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 	  <div class="collapse navbar-collapse" id="navbarTogglerMenu">
 	     <ul class="navbar-nav ml-auto">
 	      <li class="nav-item mx-3 active">
-	        <a href="{{ route('home') }}" class="btn btn-dark" role="button" aria-pressed="true"><i class="fas fa-home"> nombreProyecto </i></a>
+	        <a href="{{ route('home') }}" class="btn btn-dark" role="button" aria-pressed="true">
+	        	<span class="h3">
+	        		<i class="fas fa-cubes align-middle"></i>
+	        	</span>
+	        	<span class="font-weight-normal align-middle">
+	        		nombreProyPpal
+	        	</span>
+	        </a>
 	      </li>
 	      <li class="nav-item mx-3">
-	         <a href="#" class="btn btn-dark" role="button" aria-pressed="true"><i class="fas fa-newspaper"> Guías </i></a>
+	         <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	         	<span class="h3">
+	        		<i class="fas fa-newspaper align-middle"></i>
+	        	</span>
+	        	<span class="font-weight-normal">
+	        		guías
+	        	</span>
+	        </a>
 	      </li>
 	      <li class="nav-item mx-3">
-	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true"><i class="fas fa-blog"> Blog</i></a>
+	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	        	<span class="h3">
+	        		<i class="fas fa-blog align-middle"></i>
+	        	</span>
+	        	<span class="font-weight-normal">
+	        		blog
+	        	</span>
+	        </a>
 	      </li>
 	      <li class="nav-item ml-3">
-	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true"><i class="fas fa-calendar-alt"> Comunidad</i></a>
+	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	        	<span class="h3">
+	        		<i class="far fa-comments align-middle"></i>
+	        	</span>
+	        	<span class="font-weight-normal">
+	        		comunidad
+	        	</span>
+	        </a></a>
 	      </li>
 	    </ul>
 	  </div>

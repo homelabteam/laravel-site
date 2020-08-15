@@ -6,7 +6,7 @@
 	<title>[ Homelabteam.com ]</title>
 </head>
 <body class="text-light">
-<div class="container bg-dark mx-auto my-2 shadow">
+<div class="container bg-dark mx-auto my-2 border border-1 shadow-lg">
 	<div class="row">
 		@include('partials.navbar')
 	</div>

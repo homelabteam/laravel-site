@@ -1,15 +1,15 @@
-<div class="container p-1">
+<div class="container">
 	<div class="row justify-content-between">
 			<div class="col-sm-4">
-				<div class="row ">
+				<div class="row">
 					<div class="col-sm">
-						<p class="font-weight-light">
+						<p class="text-center text-muted font-weight-light">
 							Benjamín Tobar <br>
 							@Bttobar
 						</p>
 					</div>
 					<div class="col-sm">
-						<p class="font-weight-light">
+						<p class="text-center text-muted font-weight-light">
 							Juan Pablo Saavedra <br>
 							@Saaveg
 						</p>
@@ -17,7 +17,10 @@
 				</div>
 			</div>
 			<div class="col-sm-2 py-1">
-				<img src="{{url('/GitHub-Mark-Light-32px.png')}}">
+				<div class="row">
+					<img src="{{url('/GitHub-Mark-Light-32px.png')}}" class="mx-auto">
+				</div>
+
 			</div>
 	</div>
 </div>
