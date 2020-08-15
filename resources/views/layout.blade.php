@@ -2,17 +2,18 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/c322e62e0e.js" crossorigin="anonymous"></script>
 	<title>[ Homelabteam.com ]</title>
 </head>
-<body>
-<div class="container mx-auto my-2 shadow">
-	<div class="row border border-1">
+<body class="text-light">
+<div class="container bg-dark mx-auto my-2 shadow">
+	<div class="row">
 		@include('partials.navbar')
 	</div>
-	<div class="row border border-1">
+	<div class="row">
 		@yield('content')
 	</div>
-	<div class="row border border-1">
+	<div class="row">
 		@include('partials.footer')
 	</div>
 
