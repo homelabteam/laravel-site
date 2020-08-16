@@ -5,8 +5,8 @@
 	<script src="https://kit.fontawesome.com/c322e62e0e.js" crossorigin="anonymous"></script>
 	<title>[ Homelabteam.com ]</title>
 </head>
-<body class="text-light">
-<div class="container bg-dark mx-auto my-2 border border-1 shadow-lg">
+<body class="text-dark">
+<div class="container mx-auto my-2">
 	<div class="row">
 		@include('partials.navbar')
 	</div>

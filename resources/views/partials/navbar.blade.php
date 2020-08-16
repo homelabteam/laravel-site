@@ -1,15 +1,15 @@
 <div class="container p-0">
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<nav class="navbar navbar-light">
-  			<a class="navbar-brand bg-transparent" href="#">
+  			<a class="navbar-brand bg-transparent" href="{{route('home')}}">
     			<img src="{{url('/logoHLT.png')}}" height="50px" width="200px" class="d-inline-block align-top bg-transparent border border-warning p-0" alt="" loading="lazy">
   			</a>
 		</nav>
 	  <button type="button" class="navbar-toggler ml-auto"  data-toggle="collapse" data-target="#navbarTogglerMenu" aria-controls="navbarTogglerMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 	  <div class="collapse navbar-collapse" id="navbarTogglerMenu">
 	     <ul class="navbar-nav ml-auto">
-	      <li class="nav-item mx-3 active">
-	        <a href="{{ route('home') }}" class="btn btn-dark" role="button" aria-pressed="true">
+	      <li class="nav-item mx-2 active">
+	        <a href="{{ route('proyecto') }}" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
 	        	<span class="h3">
 	        		<i class="fas fa-cubes align-middle"></i>
 	        	</span>
@@ -18,8 +18,8 @@
 	        	</span>
 	        </a>
 	      </li>
-	      <li class="nav-item mx-3">
-	         <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	      <li class="nav-item mx-2">
+	         <a href="#" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
 	         	<span class="h3">
 	        		<i class="fas fa-newspaper align-middle"></i>
 	        	</span>
@@ -28,8 +28,8 @@
 	        	</span>
 	        </a>
 	      </li>
-	      <li class="nav-item mx-3">
-	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	      <li class="nav-item mx-2">
+	        <a href="#" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
 	        	<span class="h3">
 	        		<i class="fas fa-blog align-middle"></i>
 	        	</span>
@@ -38,8 +38,8 @@
 	        	</span>
 	        </a>
 	      </li>
-	      <li class="nav-item ml-3">
-	        <a href="#" class="btn btn-dark" role="button" aria-pressed="true">
+	      <li class="nav-item mx-2">
+	        <a href="#" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
 	        	<span class="h3">
 	        		<i class="far fa-comments align-middle"></i>
 	        	</span>
