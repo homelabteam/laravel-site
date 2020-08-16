@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/','home')->name('home');
 Route::view('/proyecto','proyecto')->name('proyecto');
+Route::view('/documentacion','docs.index')->name('documentacion');

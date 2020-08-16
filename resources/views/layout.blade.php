@@ -3,10 +3,10 @@
 <head>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<script src="https://kit.fontawesome.com/c322e62e0e.js" crossorigin="anonymous"></script>
-	<title>[ Homelabteam.com ]</title>
+	<title>[ Homelabteam.com ] | @yield('title')</title>
 </head>
 <body class="text-dark">
-<div class="container mx-auto my-2">
+<div class="container mx-auto my-2 shadow-sm">
 	<div class="row">
 		@include('partials.navbar')
 	</div>

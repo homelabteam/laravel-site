@@ -1,5 +1,11 @@
-@extends('layout')
-@section('content')
+@extends('body')
+@section('title')
+nomProyecto
+@endsection
+@section('rowTop')
+<span class="display-4">nomProyecto</span>
+@endsection
+@section('rowMid')
 <div class="container mt-3">
 	<div class="row">
 		<div class="col">
@@ -47,4 +53,13 @@
 		</div>
 	</div>
 </div>
+@endsection
+@section('rowBot')
+<div class="row justify-content-center my-3">
+		<div class="col-sm-8">
+			<p class="text-center font-weight-normal">
+				<strong>Aquí una cita: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros nibh, egestas vel malesuada nec, consequat id diam. In hac habitasse platea dictumst. Nunc maximus velit ac odio pretium, a.
+			</p>
+		</div>
+	</div>
 @endsection

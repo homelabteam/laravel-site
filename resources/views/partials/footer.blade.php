@@ -11,14 +11,15 @@
 					<div class="col-sm">
 						<p class="text-center font-weight-normal text-secondary">
 							Juan Pablo Saavedra <br>
-							@Saaveg
+							<a href="https://github.com/jpsaavedraguerin" class="text-decoration-none">@jpsaavedraguerin</a>
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-2 py-1">
 				<div class="row">
-					<img src="{{url('/GitHub-Mark-32px.png')}}" class="mx-auto">
+					<a href="https://github.com/homelabteam"><img src="{{url('/GitHub-Mark-32px.png')}}" class="mx-auto">
+					</a>
 				</div>
 
 			</div>

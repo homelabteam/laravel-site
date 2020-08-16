@@ -19,9 +19,9 @@
 	        </a>
 	      </li>
 	      <li class="nav-item mx-2">
-	         <a href="#" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
+	         <a href="{{route('documentacion')}}" class="btn btn-outline-info btn-block border-0" role="button" aria-pressed="true">
 	         	<span class="h3">
-	        		<i class="fas fa-newspaper align-middle"></i>
+	        		<i class="fas fa-book align-middle"></i>
 	        	</span>
 	        	<span class="font-weight-normal">
 	        		guías
