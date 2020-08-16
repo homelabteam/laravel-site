@@ -8,9 +8,9 @@
 			</p>
 		</div>
 		<div class="col">
-			<span class="display-4 text-center align-middle">
+			<p class="display-4 text-center">
 				<strong>Caracteristica 1</strong>
-			</span>
+			</p>
 			<p class="font-weight-normal">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros nibh, egestas vel malesuada nec, consequat id diam. In hac habitasse platea dictumst. Nunc maximus velit ac odio pretium, a.
 			</p>
